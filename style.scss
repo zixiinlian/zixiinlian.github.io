@@ -1,0 +1,402 @@
+---
+---
+
+//
+// IMPORTS
+//
+
+@import "reset";
+@import "variables";
+// Syntax highlighting @import is at the bottom of this file
+
+/**************/
+/* BASE RULES */
+/**************/
+
+html {
+  font-size: 100%;
+}
+
+body {
+	background: url(/blog/images/smbg.png);
+  font: 18px/1.4 $helvetica;
+  color: $darkGray;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 10px;
+  width: 100%;
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $helveticaNeue;
+  color: #333;
+  line-height: 1.7;
+  padding: 0;
+
+  @include mobile {
+    line-height: 1.4;
+  }
+}
+
+h1 {
+  font-size: 30px;
+  a {
+    color: inherit;
+      font-size: 26px;
+    font-weight: 300;
+  }
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+  color: $gray;
+}
+
+p {
+  margin: 15px 0;
+  line-height: 30px;
+}
+
+a {
+  color: $red;
+  text-decoration: none;
+	cursor: pointer;
+  &:hover, &:active {
+    color: $red;
+  }
+}
+
+ul, ol {
+  margin: 15px 0;
+  padding-left: 30px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ol ul, ul ol, ul ul, ol ol {
+  margin: 0;
+}
+
+ul ul, ol ul {
+  list-style-type: circle;
+}
+
+em, i {
+  font-style: italic;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+}
+
+// Fixes images in popup boxes from Google Translate
+.gmnoprint img {
+  max-width: none;
+}
+
+.date {
+  float: right;
+  font-size: 14px;
+  color: #53A1B8;
+}
+
+// Specify the color of the selection
+::-moz-selection {
+  color: $black;
+  background: $lightGray;
+}
+::selection {
+  color: $black;
+  background: $lightGray;
+}
+
+// Nicolas Gallagher's micro clearfix hack
+// http://nicolasgallagher.com/micro-clearfix-hack/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*********************/
+/* LAYOUT / SECTIONS */
+/*********************/
+
+//
+// .masthead
+//
+
+.wrapper-masthead {
+  margin-bottom: 50px;
+    border-bottom: 4px solid #53A1B8;
+    background: #fff;
+}
+
+.masthead {
+  padding: 15px 0;
+
+  @include mobile {
+    text-align: center;
+  }
+}
+
+.site-avatar {
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  img {
+    border-radius: 5px;
+  }
+}
+
+.site-info {
+  float: left;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.site-name {
+  margin: 0;
+  color: $darkGray;
+  cursor: pointer;
+  font-family: $helveticaNeue;
+  font-weight: 300;
+  font-size: 28px;
+  letter-spacing: 1px;
+    margin-top: -10px;
+}
+.site-name a{
+    font-size: 30px;
+      color: #21A3C9;
+  } 
+
+.site-description {
+  margin: 0;
+  color: $gray;
+  font-size: 14px;
+
+  @include mobile {
+    margin: 3px 0;
+  }
+}
+
+nav {
+  float: right;
+  margin-top: 23px; // @TODO: Vertically middle align
+  font-family: $helveticaNeue;
+  font-size: 18px;
+
+  @include mobile {
+    float: none;
+    margin-top: 9px;
+    display: block;
+    font-size: 16px;
+  }
+
+  a {
+      margin-left: 47px;
+  color: #333;
+  font-size: 20px;
+  text-align: right;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #21A3C9;
+
+    @include mobile {
+      margin: 0 10px;
+      color: $blue;
+    }
+  }
+}
+
+.posts > .post {
+  border-bottom: 1px solid $lightGray;
+}
+
+.posts > .post:last-child {
+  padding-bottom: 1em;
+  border-bottom: none;
+}
+
+.post {
+  blockquote {
+      margin: 1.8em 0;
+  border-left: 4px solid #53A1B8;
+  padding: 0px 0.5em;
+  color: #53A1B8;
+  font-size: 16px;
+    p{
+      line-height:22px;
+    }
+  }
+
+  .comments {
+    margin-top: 10px;
+  }
+
+  .read-more {
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+}
+
+.wrapper-footer {
+    height: 40px;
+    background: #545652;
+}
+
+footer {
+  height: 40px;
+  text-align: center;
+}
+.entry{
+  font-size: 15px;
+  color: #666A76;
+}
+
+// Settled on moving the import of syntax highlighting to the bottom of the CSS
+// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+@import "highlights";
+@import "svg-icons";
+
+#siderBar{
+  position: absolute;
+  right: 0;
+  // border-left: 1px solid $lightGray;
+  width: 230px;
+  padding-left: 20px;
+  height: 100%;
+}
+.article-panel{
+  padding-right: 230px;
+  h3{
+      margin: 12px 0 22px 0;
+  }
+  .post{
+    background-color: #FFF;
+    box-shadow: 0 1px 1px #E6E6E6;
+    padding: 10px 25px 20px 25px;
+    margin-bottom: 20px;
+    border-radius: 1px;
+    border-bottom: 1px solid #E5EBE4;
+  }
+}
+.category-list{
+  list-style-type: none;
+    padding: 0;
+  margin: 0;
+}
+.category-list a{
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  color: #333;
+  background: #fff;
+  margin-bottom: 5px;
+  padding: 0 10px;
+  font-size: 14px;
+}
+.category-list a:hover{
+  background: #53A1B8;
+  color: #fff;
+}
+.category-list a .my-badge{
+  float: right;
+  font-size: 14px;
+  color: #B3B3B3;
+}
+.category-list a:hover .my-badge{
+  color: #fff;
+}
+#main{
+    min-height: 700px;
+    margin-bottom: 80px;
+}
+.link-weibo{
+    display: inline-block;
+    margin: 7px 0;
+}
+.post-list-body article{
+      background-color: #FFF;
+    box-shadow: 0 1px 1px #E6E6E6;
+    padding: 10px 25px 20px 25px;
+    margin-bottom: 20px;
+    border-radius: 1px;
+}
+.category-panel h3{
+  margin-bottom: 20px;
+}
+.blog-panel{
+    background-color: #FFF;
+  box-shadow: 0 1px 1px #E6E6E6;
+  padding: 10px 25px 20px 25px;
+  border-radius: 1px;
+}
+.next,.previous{
+      color: #999;
+  font-size: 16px;
+  background: #FFF;
+  height: 30px;
+  border-radius: 2px;
+  line-height: 30px;
+  width: 80px;
+  text-align: center;
+  display: block;
+}
+.pagination{
+  margin: 80px 0 40px  0;
+  height: 30px;
+  a{
+      font-size: 15px;
+    color: #F55567;
+  }
+  .previous{
+    float: right;
+  }
+}
+.entry{
+  ul{
+    padding-left: 17px;
+  }
+  li{
+    line-height: 30px;
+  }
+}

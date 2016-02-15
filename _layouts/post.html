@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<article class="post">
+  <h3>{{ page.title }}</h3>
+
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  <div class="date">
+    Written on {{ page.date | date: "%B %e, %Y" }}
+  </div>
+	
+	<div class="pagination">
+	  {% if page.previous %}
+	    <a class="btn btn-default previous" href="{{ site.baseurl}}{{ page.previous.url }}" >下一篇</a>
+	  {% endif %}
+	  {% if page.next %}
+	    <a class="btn btn-default next" href="{{ site.baseurl}}{{ page.next.url }}">上一篇</a>
+	  {% endif %}
+	</div>
+
+  {% include disqus.html %}
+</article>

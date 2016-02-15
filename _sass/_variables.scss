@@ -1,0 +1,28 @@
+
+//
+// VARIABLES
+//
+
+// Colors
+$blue: #4183C4;
+$red: #F00;
+
+// Grays
+$black: #000;
+$darkerGray: #614E3C;
+$darkGray: #333;
+$gray: #666;
+$lightGray: #E5EBE4;
+$white: #fff;
+
+// Font stacks
+$helvetica: Helvetica, 'microsoft yahei', Arial, sans-serif;
+$helveticaNeue: "Helvetica Neue", Helvetica, 'microsoft yahei', Arial, sans-serif;
+$georgia: Georgia, serif;
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}

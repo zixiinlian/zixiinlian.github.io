@@ -1,0 +1,17 @@
+<div class="category-panel">
+	<h3>Categories</h3>
+	<ul class="category-list">
+		<li>
+			<a href="javascript:;" class="categories-list-item" cate="All">
+				All<span class="my-badge"> {{site.posts | size}}</span>
+			</a>
+		</li>
+		{% for category in site.categories %}
+		<li>
+			<a href="javascript:;" class="categories-list-item" cate="{{ category | first }}">
+			  {{ category | first }} <span class="my-badge">{{ category | last | size }}</span>
+			</a>
+		</li>
+		{% endfor %}
+	</ul>
+</div>

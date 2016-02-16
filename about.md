@@ -8,13 +8,18 @@ Hi!
 
 ### Jobs
 
-Web front-end developer leader of wangxiao in hujiang company
+Web front-end developer leader in hujiang company
 
-### More Information
+### My trainings
 
+* AMD，CMD和CommonJs区别
+* 自动化编译和jenkins自动化发布搭建经验分享
+* angularJs技术分享
+* 2015前端技术峰会总结分享
+* ...
 
 ### Contact me
 
-[jialee63@hotmail.com](mailto:jialee63@hotmail.com)
+[jialee63@hotmail.com](mailto:jialee63@hotmail.com)<br/>
 
-QQ: 835898749
+weibo: Lee_FeDev 

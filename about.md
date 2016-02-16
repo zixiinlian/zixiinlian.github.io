@@ -22,4 +22,4 @@ Web front-end developer leader in hujiang company
 
 [jialee63@hotmail.com](mailto:jialee63@hotmail.com)<br/>
 
-weibo: Lee_FeDev 
+weibo: [@Lee_FeDev](http://weibo.com/u/3903482915)

@@ -46,7 +46,7 @@ h1 {
   font-size: 30px;
   a {
     color: inherit;
-      font-size: 26px;
+      font-size: 22px;
     font-weight: 300;
   }
 }
@@ -207,7 +207,10 @@ img {
     font-size: 30px;
       color: #ce582f;
   }
-
+.post h1{
+  border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 9px;
+}
 .site-description {
   margin: 0;
   color: $gray;
@@ -398,5 +401,12 @@ footer {
   }
   li{
     line-height: 30px;
+  }
+}
+.friends-con{
+  background: #fff;
+  padding: 20px;
+  a{
+    line-height: 22px;
   }
 }

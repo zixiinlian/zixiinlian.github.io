@@ -33,7 +33,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: #333;
+  color: #484848;
   line-height: 1.7;
   padding: 0;
 
@@ -205,8 +205,8 @@ img {
 }
 .site-name a{
     font-size: 30px;
-      color: #21A3C9;
-  } 
+      color: #ce582f;
+  }
 
 .site-description {
   margin: 0;
@@ -259,9 +259,9 @@ nav {
 .post {
   blockquote {
       margin: 1.8em 0;
-  border-left: 4px solid #53A1B8;
+  border-left: 4px solid #ce582f;
   padding: 0px 0.5em;
-  color: #53A1B8;
+  color: #ce582f;
   font-size: 16px;
     p{
       line-height:22px;
@@ -289,7 +289,7 @@ footer {
 }
 .entry{
   font-size: 15px;
-  color: #666A76;
+  color: #747474;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
@@ -328,7 +328,7 @@ footer {
   display: block;
   height: 30px;
   line-height: 30px;
-  color: #333;
+  color: #686868;
   background: #fff;
   margin-bottom: 5px;
   padding: 0 10px;

@@ -9,16 +9,16 @@ name: zixin
 description: Web Front-end Developer
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: /blog/images/headimg.jpg 
+avatar: https://avatars3.githubusercontent.com/u/3921865?v=3&s=460
 
 #
 # Flags below are optional
 #
 
 # Includes an icon in the footer for each username you enter
-footer-links: 
+footer-links:
   dribbble:
-  email: 
+  email:
   facebook:
   weibo: 3903482915
   flickr:
@@ -27,7 +27,7 @@ footer-links:
   linkedin: zixin
   pinterest:
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter: 
+  twitter:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
@@ -63,7 +63,7 @@ permalink: /:title/
 version: v1.1.0
 
 # Set the Sass partials directory, as we're using @imports
-sass: 
+sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-insfd

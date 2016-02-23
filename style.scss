@@ -18,14 +18,14 @@ html {
 }
 
 body {
-	background: #4a4a4a;
+	background: #232327;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1000px;
   padding: 0 10px;
   width: 100%;
   position: relative;
@@ -67,7 +67,7 @@ h4 {
 }
 
 p {
-  margin: 15px 0;
+  margin: 8px 0;
   line-height: 30px;
 }
 
@@ -121,7 +121,7 @@ img {
 .date {
   float: right;
   font-size: 14px;
-  color: #53A1B8;
+  color: #999;
 }
 
 // Specify the color of the selection
@@ -156,8 +156,8 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
-    border-bottom: 4px solid #53A1B8;
     background: #f6f6f6;
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.1);
 }
 
 .masthead {
@@ -317,6 +317,8 @@ footer {
   h3{
       margin: 12px 0 22px 0;
       color:#ce582f;
+      border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 15px;
   }
   .post{
     background-color: #f6f6f6;
@@ -343,7 +345,7 @@ footer {
   font-size: 14px;
 }
 .category-list a:hover{
-  background: #53A1B8;
+  background: #ce582f;
   color: #fff;
 }
 .category-list a .my-badge{

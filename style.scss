@@ -41,7 +41,9 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.4;
   }
 }
-
+p{
+  margin: 8px 0;
+}
 h1 {
   font-size: 30px;
   a {
@@ -155,7 +157,7 @@ img {
 .wrapper-masthead {
   margin-bottom: 50px;
     border-bottom: 4px solid #53A1B8;
-    background: #fff;
+    background: #f6f6f6;
 }
 
 .masthead {
@@ -267,6 +269,7 @@ nav {
   padding: 0px 0.5em;
   color: #3f3f3f;
   font-size: 16px;
+  overflow: hidden;
     p{
       line-height:22px;
     }
@@ -313,6 +316,7 @@ footer {
   padding-right: 230px;
   h3{
       margin: 12px 0 22px 0;
+      color:#ce582f;
   }
   .post{
     background-color: #f6f6f6;
@@ -405,7 +409,7 @@ footer {
   }
 }
 .friends-con{
-  background: #fff;
+  background: #f6f6f6;
   padding: 20px 10px;
   a{
     line-height: 22px;

@@ -1,8 +1,4 @@
-/**
- * 页面ready方法
- */
-$(document).ready(function() {
-
+$(document).load(function() {
     categoryDisplay();
     generateContent();
     backToTop();
@@ -16,7 +12,7 @@ $(document).ready(function() {
  * @return {[type]} [description]
  */
 function categoryDisplay() {
-    
+
     if(location.hash){
         var cate = location.hash.replace('#','');
         $('.post-list-body>article[data-category!=' + cate + ']').hide();

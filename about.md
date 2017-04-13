@@ -8,7 +8,8 @@ Hi!
 
 >Jobs
 
-Web front-end developer leader in hujiang company
+* 2016-today  Web front-end engineer in tencent
+* 2013-2016  Web front-end engineer leader in hujiang wang
 
 >My trainings
 
@@ -16,6 +17,7 @@ Web front-end developer leader in hujiang company
 * 自动化编译和jenkins自动化发布搭建经验分享
 * angularJs技术分享
 * 2015前端技术峰会总结分享
+* React最佳实践
 * ...
 
 >Contact me
